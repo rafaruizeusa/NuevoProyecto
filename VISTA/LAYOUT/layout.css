@@ -1,0 +1,98 @@
+/* Reset de estilos para mejorar la consistencia entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilos para el encabezado (header) */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos para el contenido principal (main) */
+main {
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+/* Estilos para el pie de página (footer) */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para las secciones específicas si es necesario */
+/* Por ejemplo, si tienes clases o identificadores específicos en tu HTML */
+
+/* Clase para la sección de la barra lateral */
+.sidebar {
+    width: 30%;
+    float: left;
+}
+
+/* Clase para la sección del contenido principal */
+.content {
+    width: 70%;
+    float: left;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilos para las celdas del encabezado de la tabla */
+th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilos para las celdas de la tabla */
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Estilos alternativos para filas de la tabla */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para resaltar celdas al pasar el ratón sobre ellas */
+tr:hover {
+    background-color: #ddd;
+}
